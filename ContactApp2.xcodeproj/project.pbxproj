@@ -13,6 +13,10 @@
 		EB187155268E5C4C00D43550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB187153268E5C4C00D43550 /* Main.storyboard */; };
 		EB187157268E5C4E00D43550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB187156268E5C4E00D43550 /* Assets.xcassets */; };
 		EB18715A268E5C4E00D43550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB187158268E5C4E00D43550 /* LaunchScreen.storyboard */; };
+		EB187162268E5D9000D43550 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB187161268E5D9000D43550 /* ContactTableViewCell.swift */; };
+		EB187164268E704C00D43550 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB187163268E704C00D43550 /* ContactDetailViewController.swift */; };
+		EB187166268E7C0F00D43550 /* ContactDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB187165268E7C0F00D43550 /* ContactDetailTableViewCell.swift */; };
+		EB187168268F3B4F00D43550 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB187167268F3B4F00D43550 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EB187156268E5C4E00D43550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB187159268E5C4E00D43550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB18715B268E5C4E00D43550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB187161268E5D9000D43550 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		EB187163268E704C00D43550 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		EB187165268E7C0F00D43550 /* ContactDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EB187167268F3B4F00D43550 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				EB18714D268E5C4C00D43550 /* AppDelegate.swift */,
 				EB18714F268E5C4C00D43550 /* SceneDelegate.swift */,
+				EB187161268E5D9000D43550 /* ContactTableViewCell.swift */,
 				EB187151268E5C4C00D43550 /* ViewController.swift */,
+				EB187165268E7C0F00D43550 /* ContactDetailTableViewCell.swift */,
+				EB187163268E704C00D43550 /* ContactDetailViewController.swift */,
+				EB187167268F3B4F00D43550 /* AuthViewController.swift */,
 				EB187153268E5C4C00D43550 /* Main.storyboard */,
 				EB187156268E5C4E00D43550 /* Assets.xcassets */,
 				EB187158268E5C4E00D43550 /* LaunchScreen.storyboard */,
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB187166268E7C0F00D43550 /* ContactDetailTableViewCell.swift in Sources */,
+				EB187162268E5D9000D43550 /* ContactTableViewCell.swift in Sources */,
+				EB187164268E704C00D43550 /* ContactDetailViewController.swift in Sources */,
+				EB187168268F3B4F00D43550 /* AuthViewController.swift in Sources */,
 				EB187152268E5C4C00D43550 /* ViewController.swift in Sources */,
 				EB18714E268E5C4C00D43550 /* AppDelegate.swift in Sources */,
 				EB187150268E5C4C00D43550 /* SceneDelegate.swift in Sources */,
@@ -296,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ITIS.ContactApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ITIS.ContactApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
